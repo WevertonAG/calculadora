@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="display">
+      <p class="resultado" id="resultado"></p>
+    </div>
+    <div class="tres">
+      <button class="btngray" onclick="limpa()">AC</button>
+      <button class="btngray" onclick="back()">C</button>
+      <button class=" operadores" onclick="getTeclas('/')">/</button>
+    </div>
+    <div class="quatro">
+      <button class="btn white" onclick="getTeclas('7')">7</button>
+      <button class="btn white" onclick="getTeclas('8')">8</button>
+      <button class="btn white" onclick="getTeclas('9')">9</button>
+      <button class="operadores" onclick="getTeclas('*')" >*</button>
+    </div>
+    <div class="quatro">
+      <button class="btn white" onclick="getTeclas('4')">4</button>
+      <button class="btn white" onclick="getTeclas('5')">5</button>
+      <button class="btn white" onclick="getTeclas('6')">6</button>
+      <button class=" operadores" onclick="getTeclas('-')">-</button>
+    </div>
+    <div class="quatro">
+      <button class="btn white" onclick="getTeclas('1')">1</button>
+      <button class="btn white" onclick="getTeclas('2')">2</button>
+      <button class="btn white" onclick="getTeclas('3')">3</button>
+      <button class=" operadores" onclick="getTeclas('+')">+</button>
+    </div>
+    <div class="tres">
+      <button class="zero white" onclick="getTeclas('0')">0</button>
+      <button class="zero white" onclick="getTeclas('.')">.</button>
+      <button class=" operadores" onclick="resultadoFinal()">=</button>
+    </div>
+  </div>
+
+  </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
