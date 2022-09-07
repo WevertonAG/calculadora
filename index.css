@@ -28,11 +28,13 @@ body{
   font-size: large;
   font-weight: 500;
   border: none;
-  border-bottom: 2px solid #222;
-  border-right: 2px solid #222;
+  border-bottom: 4px solid #333;
+  border-right: 4px solid #333;
 }
 .content button:active{
   border: none;
+  border-top: 4px solid #333;
+  border-left: 4px solid #333;
 }
 .display{
   width: 97%;
