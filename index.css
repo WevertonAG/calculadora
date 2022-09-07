@@ -33,13 +33,9 @@ body{
 }
 .content button:active{
   border: none;
-<<<<<<< HEAD
+
   border-top: 4px solid #333;
   border-left: 4px solid #333;
-=======
-  border-top: 2px solid #222;
-  border-left: 2px solid #222;
->>>>>>> 071556fbeaa411b9a4a36620ecace7791e12c3ba
 }
 .display{
   width: 97%;
